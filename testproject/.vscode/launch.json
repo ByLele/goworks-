@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Go Program",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}",
+            "env": {
+                "GOROOT": "C:\\Program Files\\Go",          // 指向你的Go安装路径
+                "GOPATH": "C:\\Users\\G\\go"  // 你的工作区路径
+            },
+            "args": [],
+            "showLog": true,
+            "console": "integratedTerminal",
+            "buildFlags": "",
+            "cwd": "${workspaceFolder}",
+            "trace": "verbose"
+        }
+    ]
+}
